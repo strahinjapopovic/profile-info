@@ -120,3 +120,52 @@ header.header-main nav.nav-bar-main ul.my-links li a {
 /* ***************************************************************************************** */
 /* End of Main header section and navigation panel ***************************************** */
 /* ***************************************************************************************** */
+
+/* ***************************************************************************************** */
+/* Sub-header with image on the left and sub-title description on the right **************** */
+/* ***************************************************************************************** */
+section.sub-header {
+    width: 100%;
+    height: 151px;
+    display: flex;
+    line-height: 2;
+    margin: 0px auto;
+    flex-direction: row;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid var(--light-web-blue);
+    background-image: url(../images/backgrounds/bcg-sub-title-v1.jpg);
+}
+
+section.sub-header div.my-image {
+    width: 125px;
+    height: 151px;
+    margin-left: 100px;
+    background-color: var(--light-web-blue);
+}
+
+section.sub-header div.quoted-text {
+    position: relative;
+    width: calc(100% - 225px);
+}
+
+section.sub-header div.my-image img.personal {
+    width: 125px;
+    height: 150px;
+}
+
+section.sub-header div.quoted-text p:first-child {
+    right: 100px;
+    bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    color: var(--grey);
+    font-family: Cambria, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ***************************************************************************************** */
+/* End of Sub-header section *************************************************************** */
+/* ***************************************************************************************** */
