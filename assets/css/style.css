@@ -331,12 +331,12 @@ section.contact-me-info table.contact-me-tbl tr td:last-child table.contact-me-s
     height: auto;
     display: block;
     font-size: 20px;
+    color: var(--grey);
     text-align: center;
     letter-spacing: 1px;
     text-decoration: none;
     padding: 20px 0px 20px 0px;
-    margin: 20px 20px 20px 20px;
-    color: var(--light-web-blue);
+    margin: 10px 20px 20px 20px;
     border-bottom: 3px solid var(--light-web-blue);
     font-family: 'furore', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
