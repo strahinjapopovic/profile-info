@@ -347,3 +347,46 @@ section.contact-me-info table.contact-me-tbl tr td:last-child table.contact-me-s
 /* ***************************************************************************************** */
 /* End of Contact Me section *************************************************************** */
 /* ***************************************************************************************** */
+
+/* ***************************************************************************************** */
+/* Footer section ************************************************************************** */
+/* ***************************************************************************************** */
+footer {
+    width: 100%;
+    height: 200px;
+    line-height: 2;
+    text-align: left;
+    background-color: var(--black);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer p span.span-info {
+    color: var(--grey);
+}
+
+footer p {
+    left: 100px;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 0 100px 0 100px;
+    color: var(--light-web-blue);
+}
+
+footer p:first-child {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-family: 'furore', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer p:last-child {
+    bottom: 50px;
+    border-bottom: 0px solid var(--light-web-blue);
+}
+
+/* ***************************************************************************************** */
+/* End of Footer section ******************************************************************* */
+/* ***************************************************************************************** */
