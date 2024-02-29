@@ -169,3 +169,181 @@ section.sub-header div.quoted-text p:first-child {
 /* ***************************************************************************************** */
 /* End of Sub-header section *************************************************************** */
 /* ***************************************************************************************** */
+
+/* ***************************************************************************************** */
+/* About Me section ************************************************************************ */
+/* Work section **************************************************************************** */
+/* Contact Me section ********************************************************************** */
+/* ***************************************************************************************** */
+main.desc-block {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid var(--light-web-blue);
+}
+
+section.about-me-desc,
+section.my-work-desc,
+section.contact-me-info {
+    width: 100%;
+    height: auto;
+    border-bottom: 0px solid var(--light-web-blue);
+}
+
+section.my-work-desc table.my-work-tbl tr td:nth-child(2) {
+    background-color: var(--black);
+}
+
+section.about-me-desc table.about-me-tbl,
+section.my-work-desc table.my-work-tbl,
+section.contact-me-info table.contact-me-tbl {
+    height: auto;
+    margin: 20px 100px;
+    width: calc(100% - 200px);
+}
+
+section.about-me-desc table.about-me-tbl tr td:first-child.td-post,
+section.my-work-desc table.my-work-tbl tr td:first-child.td-post,
+section.contact-me-info table.contact-me-tbl tr td:first-child.td-post {
+    width: 15%;
+    padding-right: 20px;
+    border-right: 3px solid var(--light-web-blue);
+}
+
+section.about-me-desc table.about-me-tbl tr td:last-child,
+section.my-work-desc table.my-work-tbl tr td:last-child,
+section.contact-me-info table.contact-me-tbl tr td:last-child {
+    width: 85%;
+}
+
+section.about-me-desc table.about-me-tbl tr td:first-child.td-post p,
+section.my-work-desc table.my-work-tbl tr td:first-child.td-post p,
+section.contact-me-info table.contact-me-tbl tr td:first-child.td-post p {
+    line-height: 1.2;
+    text-align: right;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    color: var(--light-web-blue);
+    font-family: 'furore', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.about-me-desc table.about-me-tbl tr td:last-child p {
+    font-size: 20px;
+    margin-left: 20px;
+    color: var(--grey);
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid var(--light-web-blue);
+}
+
+/* ***************************************************************************************** */
+/* Work section with description images and tables ***************************************** */
+/* ***************************************************************************************** */
+/*section.my-work-desc table.my-work-tbl tr td:not(:first-child) {
+    width: 90%;
+}
+
+section.about-me-desc table.about-me-tbl tr td:last-child {
+    width: 90%;
+}
+*/
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl {
+    height: auto;
+    width: calc(100% - 20px);
+    margin: 20px 0px 20px 20px;
+    border: 3px solid var(--light-web-blue);
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl tr td {
+    height: auto;
+    width: calc(100% / 3);
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl tr td table.work-desc-icons-tbl {
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl tr td table.work-desc-icons-tbl tr th {
+    width: 150px;
+    height: auto;
+    padding: 20px 0;
+    font-size: 24px;
+    color: var(--grey);
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl tr td table.work-desc-icons-tbl tr td {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 40px 30px 40px 30px;
+    border: 3px solid var(--light-web-blue);
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl table.work-desc-icons-tbl tr td img.dev {
+    width: auto;
+    height: 200px;
+    margin-left: calc((100% - 360px) / 2);
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl table.work-desc-icons-tbl tr td img:not(img.dev) {
+    width: auto;
+    height: 200px;
+    margin-left: calc((100% - 200px) / 2);
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl table.work-desc-icons-tbl tr td img:not(img.dev, img.git) {
+    border-radius: 35px;
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl table.work-desc-icons-tbl tr td img.git,
+section.my-work-desc table.my-work-tbl table.work-sub-tbl table.work-desc-icons-tbl tr td img.dev {
+    border-radius: 15px;
+}
+
+section.my-work-desc table.my-work-tbl table.work-sub-tbl table.work-desc-icons-tbl tr td img.dev:hover,
+section.my-work-desc table.my-work-tbl table.work-sub-tbl table.work-desc-icons-tbl tr td img:hover {
+    transform: scale(1.1);
+    border: 3px solid var(--light-web-blue);
+}
+
+/* ***************************************************************************************** */
+/* Contact me section **************************** ***************************************** */
+/* ***************************************************************************************** */
+
+section.contact-me-info table.contact-me-tbl tr td:last-child table.contact-me-sub-tbl {
+    height: auto;
+    width: calc(100% - 20px);
+    margin: 20px 0 20px 20px;
+    border: 3px solid var(--light-web-blue);
+}
+
+section.contact-me-info table.contact-me-tbl tr td:last-child table.contact-me-sub-tbl tr td {
+    height: auto;
+    width: calc(100% / 7);
+}
+
+section.contact-me-info table.contact-me-tbl tr td:last-child table.contact-me-sub-tbl tr td a {
+    height: auto;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 20px 0px 20px 0px;
+    margin: 20px 20px 20px 20px;
+    color: var(--light-web-blue);
+    border-bottom: 3px solid var(--light-web-blue);
+    font-family: 'furore', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* End of About Me section ***************************************************************** */
+/* ***************************************************************************************** */
+/* End of Work section ********************************************************************* */
+/* ***************************************************************************************** */
+/* End of Contact Me section *************************************************************** */
+/* ***************************************************************************************** */
